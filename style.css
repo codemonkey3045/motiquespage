@@ -1,0 +1,73 @@
+
+html, body  {
+    margin:0;
+    background-image: url('yellow-background.jpg');
+    background-repeat: repeat-x repeat-y;
+    font-family: Georgia, serif;
+    line-height: 1.2em;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+    float: right;
+   
+}
+
+ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+     display: inline;
+     float: left;
+}
+
+h1 {
+    display: inline;
+ /*   line-height: 1.5em; */
+    float: left;
+}
+
+p {
+    float: left;
+}
+
+#container  {
+    margin:0 auto;
+    padding: 10px 10px 10px 10px;
+    width:880px;
+    background-color: black;
+}
+
+#header  {
+    color: white;
+    background:black;
+    height:90px;
+}
+
+#logo {
+    float: left;
+}
+
+#content {
+    height: 500px;
+    width: 870px;
+        border-color: beige;
+    border-style: groove;
+    border-width: 5px;
+    background-image: url('motique-stretched.jpg');
+    
+    background-size: 880px Auto;
+
+}
+
+#footer  {
+    clear: both;
+    color: white;
+    background: black;
+   
+}
+
+a:link {text-decoration: none; color:#FFFFFF;}
+a:visited {text-decoration: italics; color:#FFFFFF;}
+a:hover {text-decoration:underline; color:#FFFFFF;}
+a:active {text-decoration: none; color:#FFFFFF;}
