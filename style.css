@@ -9,7 +9,7 @@ line-height: 1.2em;
 
 ul {
 position: relative;
-top: -40px;
+top: -55px;
 padding: 10px;
 list-style-type: none;
 float: right;
@@ -30,9 +30,6 @@ display: inline;
 float: left;
 }
 
-p {
-float: left;
-}
 
 #container  {
 margin:0 auto;
@@ -50,6 +47,7 @@ overflow: hidden;
 
 #logo {
 float: left;
+
 }
 
 #content {
@@ -79,9 +77,16 @@ height:50px;
 
 #footer  {
 clear: both;
+text-align: right;
 color: white;
 background: black;
 height:45px;
+
+}
+
+#content .floatLeft{
+float: left !important;
+margin: 5px;
 
 }
 
@@ -170,7 +175,7 @@ margin-left:0px;
 
 
 
-a:link {text-decoration: none; color:#FFFFFF;}
-a:visited {text-decoration: italics; color:#FFFFFF;}
+a:link {text-decoration: none; color: LightGoldenRodYellow;}
+a:visited {text-decoration: italics; color: #FFFFFF;}
 a:hover {text-decoration:underline; color:#FFFFFF;}
-a:active {text-decoration: none; color:#FFFFFF;}
+a:active {text-decoration: bold; color:#FFFFFF;}
