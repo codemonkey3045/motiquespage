@@ -1,8 +1,9 @@
 
 html, body  {
 margin:0;
-background-image: url('yellow-background.jpg');
-background-repeat: repeat-x repeat-y;
+/*background-image: url('try1.jpg');*/
+background-color: #202020  ;  /*black, */
+background-size: cover;
 font-family: Georgia, serif;
 line-height: 1.2em;
 }
@@ -51,10 +52,11 @@ float: left;
 }
 
 #content {
-
 clear:both;
 text-align: center;
-background-color: LightGoldenRodYellow ;
+/*background-color: LightGoldenRodYellow ;*/
+background-image: url('try1.jpg');
+background-size: cover;
 height: 500px;
 width: 870px;
 border-color: beige;
@@ -84,7 +86,7 @@ height:45px;
 
 }
 
-#content .floatLeft{
+.floatLeft{
 float: left !important;
 margin: 5px;
 
@@ -133,7 +135,7 @@ font-size:21px;
 height:50px;
 vertical-align:bottom;
 border-bottom-style:solid;
-border-bottom-color:white;
+border-bottom-color: #202020;
 }
 
 div.transbox td
