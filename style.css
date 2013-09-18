@@ -1,16 +1,25 @@
 
 html, body  {
 margin:0;
-/*background-image: url('try1.jpg');*/
+/*background-image: url('try1.jpg');
 background-color: #202020  ;  /*black, grey, LightGoldenRodYellow?? */
-background-size: cover;
+background-image: url('dark_wood.png');
+/*background-image: url('crissXcross.png');*/
 font-family: Georgia, serif;
 line-height: 1.2em;
 }
 
+.logo {
+margin-top: 10px;
+padding: 20px;
+display: inline-block;
+height: 85px;
+}
+
+
 ul {
 position: relative;
-top: -55px;
+top: -73px;
 padding: 10px;
 list-style-type: none;
 float: right;
@@ -21,19 +30,20 @@ margin: 0 10px 10px 0;
 padding: 0;
 display: inline;
 float: left;
+font-size: 21px;
 }
 
 #container  {
 margin:0 auto;
 padding: 10px 10px 10px 10px;
-width:880px;
+width:1000px;
 background-color: black;
 }
 
 #header  {
 color: white;
 background:black;
-height:90px;
+height:130px;
 overflow: hidden;
 }
 
@@ -44,25 +54,29 @@ text-align: center;
 /*background-color: LightGoldenRodYellow ;*/
 background-image: url('try1.jpg');
 background-size: cover;
-height: 500px;
-width: 870px;
+/*height: 500px;
+width: 870px;*/
 border-color: white;
-border-style: groove;
+border-style: solid;
 border-width: 8px;
 overflow-y: scroll;
 overflow-x: hidden;
 }
 
+.single_photo_center {
+/*padding: 20px;*/
+}
+
 #about_text { 
 text-align: left !important;
 text-indent: 1.5em;
-padding: 10px;
+padding: 30px;
 }
 
 .thumbnail img{
-max-width: 150px;
+max-width: 200px;
 width: 100%;
-max-height: 200px;
+max-height: 270px;
 /*height: auto;*/
 display: inline-block;
 /*float: center;*/
@@ -112,7 +126,7 @@ background-size: cover;*/
 
 .floatLeft{
 float: left !important;
-padding: 10px;
+padding: 30px;
 }
 
 
