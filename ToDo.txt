@@ -4,11 +4,8 @@ OVERALL
 
 ABOUT
 *rewrite focusing on all 3 talents
-?hyperlinks to main names/productions are awesome, but i'm scared to lose/push user
-  ->unless motique has ton of pictures or reviews to dedicate a page to production. Focus is on HER only!!
 
 GALLERY
-**add subtle grey border to thumbnails
 **fix name on portrait
 **fit "fat" motique pic
 -improvement->add javascript to view images on top of current page so user never leaves "site"
@@ -16,7 +13,7 @@ GALLERY
 DANCE
 
 VOICE
-**add picture--> broadstreet one seems most theater-like
+
 
 RESUME
 **expand/collapse on category 
