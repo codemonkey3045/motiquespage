@@ -4,6 +4,7 @@ margin:0;
 /*background-image: url('try1.jpg');
 background-color: #202020  ;  /*black, grey, LightGoldenRodYellow?? */
 background-image: url('dark_wood.png');
+image: cover;
 /*background-image: url('crissXcross.png');*/
 font-family: Helvetica, sans-serif;
 line-height: 1.2em;
@@ -17,7 +18,6 @@ height: 140px;
 width: 410px;
 }
 
-
 ul {
 position: relative;
 top: -82px;
@@ -27,12 +27,13 @@ float: right;
 }
 
 ul li {
-margin: 0 10px 10px 0;
-padding: 5px;
-display: inline;
-float: left;
-font-size: 18px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    float: left;
+    font-size: 18px;
 }
+
+
 
 #container  {
 margin:0 auto;
@@ -40,8 +41,11 @@ padding: 10px 10px 10px 10px;
 width:1000px;
 }
 
+#nav ul li.active, #nav ul li:hover {
+/*background: #333;*/
+}
+
 #header  {
-position: fixed;
 color: white;
 background:black;
 height:150px;
@@ -51,7 +55,7 @@ overflow: hidden;
 
 
 #content {
-margin-top: 170px;
+margin-top: 20px;  /*170px for fixed header*/
 margin-left: 0px;
 clear:both;
 text-align: center;
@@ -117,16 +121,34 @@ height:50px;
 
 
 #footer  {
+margin-top: 20px;
 clear: both;
-text-align: right;
-color: white;
-background: black;
-height:45px;
+padding: 0px;
+color: LightGoldenRodYellow;
+background-color: black;
+background-size: cover;
+height:200px;
 /*background-image: url('try1.jpg');
 background-size: cover;*/
-
-
+font-size: .8em;
 }
+
+#footer .floatLeft {
+float: left;
+margin: -25px 0px 0 0;
+width: 27%;
+}
+
+#footer .clear {clear:both}
+
+#footer h1,h2,h3 { color:white !important;}
+
+#twitter_update_list {
+color: red;
+font-size: 50px;
+}
+
+
 
 .floatLeft{
 float: left !important;
@@ -152,6 +174,6 @@ td { text-align: left !important }
 th { text-align: left !important }
 
 a:link {text-decoration: none; color: LightGoldenRodYellow;}
-a:visited {text-decoration: italics; color: #FFFFFF;}
-a:hover {text-decoration:underline; color:#FFFFFF;}
-a:active {text-decoration: bold; color:#FFFFFF;}
+a:visited {text-decoration: italics; color: LightGoldenRodYellow;}
+a:hover {text-decoration:underline; color: LightGoldenRodYellow;}
+a:active {text-decoration: bold; color: LightGoldenRodYellow;}
