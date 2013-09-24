@@ -131,17 +131,36 @@ height:200px;
 /*background-image: url('try1.jpg');
 background-size: cover;*/
 font-size: .8em;
+
+border-top: 8px solid LightGoldenRodYellow;
 }
 
 #footer .floatLeft {
 float: left;
-margin: -25px 0px 0 0;
+margin: 10px 0px 0 55px;
+width: 27%;
+}
+
+#footer .floatRight {
+float: right;
+text-align: right;
+margin-top: 10px;
+margin-right: 55px;
+
 width: 27%;
 }
 
 #footer .clear {clear:both}
 
 #footer h1,h2,h3 { color:white !important;}
+
+#footer-shoes {
+position: absolute;
+margin-left: 650px;
+margin-top: 0px;
+z-index:1;
+
+}
 
 #twitter_update_list {
 color: red;
@@ -150,12 +169,12 @@ font-size: 50px;
 
 
 
-.floatLeft{
+#content .floatLeft{
 float: left !important;
 padding: 30px;
 }
 
-.floatRight{
+#content .floatRight{
 float: right !important;
 padding: 30px;
 
@@ -177,3 +196,12 @@ a:link {text-decoration: none; color: LightGoldenRodYellow;}
 a:visited {text-decoration: italics; color: LightGoldenRodYellow;}
 a:hover {text-decoration:underline; color: LightGoldenRodYellow;}
 a:active {text-decoration: bold; color: LightGoldenRodYellow;}
+
+a[href$=".pdf"] {
+  background: url(pdficon_small.png) no-repeat left center;
+  padding-left: 20px;
+}
+#footer a[href$="contact.html"] {
+  background: url(mail.jpg) no-repeat left center;
+  padding-left: 20px;
+}
