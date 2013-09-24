@@ -4,7 +4,7 @@ margin:0;
 /*background-image: url('try1.jpg');
 background-color: #202020  ;  /*black, grey, LightGoldenRodYellow?? */
 background-image: url('dark_wood.png');
-image: cover;
+background-image: cover;
 /*background-image: url('crissXcross.png');*/
 font-family: Helvetica, sans-serif;
 line-height: 1.2em;
@@ -62,14 +62,16 @@ text-align: center;
 /*background-color: LightGoldenRodYellow ;*/
 background-image: url('try1.jpg');
 background-size: cover;
-/*height: 500px;*/
-width: 100%;
+min-height: 500px;
+
 border-color: white;
 border-style: solid;
 border-width: 8px;
 /overflow-y: scroll; */
 overflow-x: hidden;
+color: black;
 }
+
 
 .single_photo_center {
 /*padding: 20px;*/
@@ -98,6 +100,10 @@ top: -200px;
 display: float;
 height: 175px;
 width: auto;
+overflow: hidden;
+}
+
+#voice_image {
 overflow: hidden;
 }
 
@@ -152,7 +158,7 @@ width: 27%;
 
 #footer .clear {clear:both}
 
-#footer h1,h2,h3 { color:white !important;}
+#footer h3 { color:white !important;}
 
 #footer-shoes {
 position: absolute;
