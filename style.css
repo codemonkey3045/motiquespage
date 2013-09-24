@@ -8,7 +8,7 @@ background-image: cover;
 /*background-image: url('crissXcross.png');*/
 font-family: Helvetica, sans-serif;
 line-height: 1.2em;
-font-size: 18px;
+font-size: 17px;
 }
 
 .logo {
@@ -103,8 +103,14 @@ width: auto;
 overflow: hidden;
 }
 
-#voice_image {
-overflow: hidden;
+
+
+#voice {
+float: left;
+}
+
+#voice.floatLeft {
+padding-right: 0px !important;
 }
 
 #stats {
@@ -121,7 +127,7 @@ top: -500px;
 audio {
 display: inline-block;
 text-align: center;
-width:500px;
+width:600px;
 height:50px;
 }
 
