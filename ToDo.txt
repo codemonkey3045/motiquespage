@@ -1,5 +1,4 @@
 OVERALL
-**figure out ideal footer color/content for all pages--> maybe download resume option?
 **change current tab --> caps? neon green if footer..
 
 ABOUT
@@ -8,15 +7,16 @@ ABOUT
 GALLERY
 **fix name on portrait
 **fit "fat" motique pic
--improvement->add javascript to view images on top of current page so user never leaves "site"
 
 DANCE
+**align floating
+**remove choreographed
 
 VOICE
 
 
 RESUME
-**expand/collapse on category 
+**name black not white
 
 CONTACT
 **fix email form
