@@ -9,11 +9,12 @@
         <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
         <link rel="stylesheet" href="style.css" type="text/css" />
         
-       
-<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
-	<script type="text/javascript" src="engine1//jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->        
+        <!-- Insert to your webpage before the </head> -->
+        <script src="sliderengine/jquery.js"></script>
+        <script src="sliderengine/amazingslider.js"></script>
+        <script src="sliderengine/initslider-1.js"></script>
+        <!-- End of head section HTML codes -->
+        
         
     </head>
     
@@ -46,35 +47,25 @@
                     </ul>	
                 </div>
             </div>
-            
-
-
-<div id="content">
-    
-    
-    <!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
-	<div id="wowslider-container1">
-        <div class="ws_images"><ul>
-            <li><img src="data1/images/motique3.jpg" alt="motique3" title="motique3" id="wows1_0"/></li>
-            <li><img src="data1/images/motique4.jpg" alt="motique4" title="motique4" id="wows1_1"/></li>
-            <li><img src="data1/images/stare.jpg" alt="stare" title="stare" id="wows1_2"/></li>
-            <li><img src="data1/images/headshot.jpg" alt="headshot" title="headshot" id="wows1_3"/></li>
-        </ul></div>
-        <div class="ws_bullets"><div>
-            <a href="#" title="motique3">1</a>
-            <a href="#" title="motique4">2</a>
-            <a href="#" title="stare">3</a>
-            <a href="#" title="headshot">4</a>
-        </div></div>
-        <span class="wsl"><a href="http://wowslider.com">Image Slider HTML</a> by WOWSlider.com v4.7m</span>
-        <a href="#" class="ws_frame"></a>
-        <div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="engine1//wowslider.js"></script>
-	<script type="text/javascript" src="engine1//script.js"></script>
-    <!-- End WOWSlider.com BODY section -->
+            <div id="content">
                 
-                               <!-- End of body section HTML codes 
+                <!-- Insert to your webpage where you want to display the slider -->
+                <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 56px;">
+                    <ul class="amazingslider-slides" style="display:none;">
+                        <li><img src="front_images/headshot.jpg" alt="headshot" /></li>
+                        <li><img src="front_images/madisonsquarepark1.jpg" alt="madisonsquarepark1" /></li>
+                        <li><img src="front_images/motique3.jpg" alt="motique3" /></li>
+                        <li><a href="front_images/motique5-lightbox.jpg" class="html5lightbox"><img src="front_images/motique5.jpg" alt="motique5" data-description="hvj" /></a></li>
+                    </ul>
+                    <ul class="amazingslider-thumbnails" style="display:none;">
+                        <li><img src="front_images/headshot-tn.jpg" /></li>
+                        <li><img src="front_images/madisonsquarepark1-tn.jpg" /></li>
+                        <li><img src="front_images/motique3-tn.jpg" /></li>
+                        <li><img src="front_images/motique5-tn.jpg" /></li>
+                    </ul>
+                    <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript Image Slider</a></div>
+                </div>
+                <!-- End of body section HTML codes 
                                 
                 <img src="motique-stretched.jpg" class="single_photo_center" alt="Motique" />  -->
             
