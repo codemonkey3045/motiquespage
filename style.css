@@ -213,7 +213,8 @@ a[href$=".pdf"] {
   background: url(pdficon_small.png) no-repeat left center;
   padding-left: 20px;
 }
+/*
 #footer a[href$="contact.html"] {
   background: url(mail.jpg) no-repeat left center;
   padding-left: 20px;
-}
+}*/

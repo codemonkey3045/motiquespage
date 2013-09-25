@@ -9,14 +9,13 @@ GALLERY
 **fit "fat" motique pic
 
 DANCE
-**align floating
-**remove choreographed
+
 
 VOICE
 
 
 RESUME
-**name black not white
+
 
 CONTACT
 **fix email form
