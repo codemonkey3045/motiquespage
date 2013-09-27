@@ -8,6 +8,25 @@
         
         <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
         <link rel="stylesheet" href="style.css" type="text/css" />
+        
+       <!-- simple jquery slideshow -->
+        <style>
+            body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+            
+            .fadein { position:relative; height:500px; width:100%; overflow-y: hidden;}
+            .fadein img { position:relative; margin-left: auto;
+                margin-right: auto;  width:100%; z-value: -1;}
+            </style>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+            $(function(){
+              $('.fadein img:gt(0)').hide();
+              setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 4000);
+              });
+            </script>
+        <!-- end of simple jquery slideshow -->
+        
     </head>
     
     <body>
@@ -22,7 +41,9 @@
         
         <div id="container">
             <div id="header">
-                <a href="homepage.html"><img src="logo5.jpg" class="logo" alt="Motique" /></a>
+                
+                              
+              <a href="homepage.html"><img src="logo5.jpg" class="logo" alt="Motique" /></a>  
                 
              <!--  <h1>Motique Ashleigh</h1>
                 <p> <br><br>ACTRESS  |  SINGER  |  DANCER</p> -->
@@ -39,9 +60,28 @@
                     </ul>	
                 </div>
             </div>
+            
+            
             <div id="content">
-                <img src="motique-stretched.jpg" class="single_photo_center" alt="Motique" />
+                
+              <div class="fadein">
+                    
+                    <img src="images/motique3.jpg"> 
+                     <img src="images/heights.jpg">
+                    <img src="images/headshot2.jpg">
+                    <img src="images/motique as Demeter.JPG">
+                           
+                </div>
+                 
+                               
+            <!--
+              <img src="motique-stretched.jpg" class="single_photo_center" alt="Motique" />  -->
+            
+
             </div>
+            
+            
+            
             <div id="footer">
                 <img src="hangingBalletShoes.jpg" alt="my cute dog" id="footer-shoes"/>
               
