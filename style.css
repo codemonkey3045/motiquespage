@@ -142,8 +142,8 @@ background-size: cover;
 height:200px;
 /*background-image: url('try1.jpg');
 background-size: cover;*/
-font-size: .8em;
-
+font-size: 15px;
+line-height: 1.2em;
 border-top: 8px solid LightGoldenRodYellow;
 }
 
